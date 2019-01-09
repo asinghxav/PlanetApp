@@ -29,8 +29,6 @@ class DBmanger {
     }
     
     
-    /// Persistent Container because we don't have initialised this project with
-    /// Core Data.
     private lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: dbName)
         //print(container.persistentStoreDescriptions)
